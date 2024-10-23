@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/encontre.css" />
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="styles/images/logo2.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+
+    />
+    <script src="https://kit.fontawesome.com/5efb6b3ec6.js" crossorigin="anonymous"></script>
+    <title>Petzz</title>
+  </head>
+
+  <body>
+    <header>
+      <a class="logo" href="tela_inicial.html"
+        ><img src="styles/images/petzz.png" alt="logo"
+      /></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="adocao.html">Adoção de Animais</a></li>
+          <li><a href="sobre_nos.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="adt" href="login.html">Login</a>
+    </header>
+
+    <section>
+        <div class="inicio">
+            <img src="styles/images/encontre/Titulo.png" class="encontre"/>
+            <p class="subtitulo">Encontre seu pet usando nossas ferramentas de busca 
+                simples e eficazes, conhecidas em todo o Brasil. 
+                Crie seu anúncio gratuito agora e acesse o Painel de Busca, 
+                aumentando suas chances de trazer seu amigo de volta para casa</p>
+            <img src="styles/images/encontre/Into.png" class="mulher"/>
+            <div class="btns">
+            <button class="open-modal" data-modal="modal-1"><i class="fa-solid fa-magnifying-glass"></i> ENCONTRAR</button>
+
+            <dialog id="modal-1">
+                <form>
+                    <!-- Cabeçalho do modal -->
+                    <div class="modal-header">
+                        <!-- Título do modal -->
+                        <h1 class="modal-title">
+                            Encontre seu pet
+                        </h1>
+        
+                        <!-- Botão para fechar o modal -->
+                        <button class="close-modal" type="button" data-modal="modal-1">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+            
+                    <!-- Corpo do modal -->
+                    <div class="modal-body">
+                        <!-- Campo de e-mail -->
+                        <div class="input-group">
+                            <label for="email">Nome</label>
+                            <input 
+                                type="nome" 
+                                id="nome" 
+                                name="nome" 
+                                placeholder="Nome do seu pet"
+                            >
+                        </div>
+            
+                        <!-- Campo de senha -->
+                        <div class="input-group">
+                            <label for="password">Raça</label>
+                            <input 
+                                type="raca" 
+                                id="raca"
+                                name="raca"
+                                placeholder="Raça do seu pet"
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="password">Último local visto</label>
+                            <input 
+                                type="local" 
+                                id="local"
+                                name="local"
+                                placeholder="Ex: Bairro das Palmeiras"
+                            >
+                        </div>
+                
+        
+                        <!-- Botão de login -->
+                        <button id="login_button">
+                            Encontre meu pet
+                        </button>
+        
+                        <!-- Botão de registro -->
+                        <div class="register">
+                            <span>Encontrou algum pet?</span>
+                            <a href="#">Cadastre-o aqui</a>
+                        </div>
+                    </div>
+                </form>
+            </dialog>
+
+            <button class="reunir"><i class="fa-solid fa-magnifying-glass"></i> ENCONTREI</button>
+        </div>
+        </div>
+    </section>
+    <section class="container2">
+        <img src="styles/images/encontre/achados_perdidos.png" class="titulo2"/>
+        <div class="quadrado">
+            <div class="card1">
+                <img src="styles/images/encontre/card 1.jpg">
+                <h1> TODDY </h1>
+                <i id="v" class="fa-solid fa-check"></i>
+                <p> Rua dos Girássois, Jardim...ㅤㅤㅤ4 dias atrás</p>
+            </div>
+            <div class="card2">
+                <img src="styles/images/encontre/card 2.jpg">
+                <h1> MEL </h1>
+                <i id="x"  class="fa-solid fa-x"></i>
+                <p> Avenida dos Palmeiras, C...ㅤㅤㅤ2 horas atrás</p>
+            </div>
+            <div class="card3">
+                <img src="styles/images/encontre/card 3.jpg">
+                <h1> SENDY </h1>
+                <i id="x"  class="fa-solid fa-x"></i>
+                <p> Rua dos Acácias, Bairro...ㅤㅤㅤ6 dias atrás</p>
+            </div>
+            <div class="card4">
+                <img src="styles/images/encontre/card 4.jpg">
+                <h1> REX </h1>
+                <i id="x"  class="fa-solid fa-x"></i>
+                <p> Avenida das Américas, Se... ㅤㅤㅤ1 hora atrás</p>
+            </div>
+            <button class="ver_mais"> Ver mais </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container3">
+            <img src="styles/images/encontre/historias_destaques.png"/>
+            <div class="slider">
+                <div class="slide">
+                    <img src="styles/images/encontre/slide 1.jpg" alt="Voluntariado">
+                    <div class="slide-content">
+                      <h1> Reencontro de Thor</h1>
+                        
+                        <p>Thor se perdeu em um dia de chuva, e após semanas sem notícias, 
+                            alguém o encontrou através do PETZZ. Ver seu anúncio no site 
+                            foi um alívio imenso. Hoje, Thor está de volta em casa, graças ao PETZZ!
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="styles/images/encontre/slide2.jpg" alt="Apadrinhamento de Pets">
+                    <div class="slide-content">
+                      <h1> Reencontro com Simba</h1>
+                        
+                        <p>Depois de muito procurar por Simba, conseguimos encontrá-lo graças a uma pessoa que viu seu anúncio no PETZZ.
+                             O reencontro foi incrível, 
+                            e somos muito gratos ao PETZZ por nos ajudar a trazer Simba de volta para casa.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="styles/images/encontre/slide3.jpg" alt="Loja Solidária">
+                    <div class="slide-content">
+                      <h1> A volta de Bella</h1>
+                        <p>Bella desapareceu durante uma viagem, 
+                            e já estávamos perdendo as esperanças. 
+                            Foi através do PETZZ que recebemos a notícia de que alguém a tinha encontrado. 
+                            O reencontro foi emocionante, e agora Bella está de volta ao nosso lar.
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="styles/images/logo2.png"></img>
+                <p>"Aqueles que mais ensinam sobre humanidade nem sempre são humanos." Donald L. Hicks</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/petzz.bentao/" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Ajude</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Ongs</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Vaquinhas</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adote</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Nós</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Equipe</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Objetivo</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+
+                <p>
+                    Insira o seu email para receber novas
+                    informações
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 todos direitos reservados
+        </div>
+    </footer>
+    <script src="scripts/encontre.js"></script>
+  </body>
+</html>

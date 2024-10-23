@@ -20,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://kit.fontawesome.com/5efb6b3ec6.js" crossorigin="anonymous"></script>
     <title>Petzz</title>
   </head>
   <br>
@@ -30,7 +31,7 @@
     <nav>
       <ul class="nav__links">
         <li><a href="adocao.html">Adoção de Animais</a></li>
-        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="sobre_nos.html">Sobre Nós</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
@@ -56,11 +57,37 @@
         <div class="card-content">
             <h3>Nina</h3>
             <p>Nina é uma cadela extremamente dócil e pronta para receber o seu amor. Ela foi resgatada da rua quando tinha apenas um mês de vida.</p>
-            <a href="#">Ver detalhes
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M10.854 4.854a.5.5 0 0 0-.708-.708L7 7.293 4.854 5.146a.5.5 0 1 0-.708.708l2.5 2.5a.5.5 0 0 0 .708 0l3.5-3.5z"/>
-                </svg>
-            </a>
+            
+            <button class="open-modal" data-modal="modal-1"> Ver detalhes </button>
+            <dialog id="modal-1">
+                <form>
+                    <!-- Cabeçalho do modal -->
+                    <div class="modal-header">
+                        <!-- Título do modal -->
+        
+                        <!-- Botão para fechar o modal -->
+                        <button class="close-modal" type="button" data-modal="modal-1">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+            
+                    <!-- Corpo do modal -->
+                    <div class="modal-body">
+                      <img src="styles/images/tela_tres.png">
+                        <div class="itens-modal">
+                          <div class="titulo">
+                          <h1 class="nome"> Nina</h1>
+                        </div>
+                          <div class="textos">
+                          <p><i class="fa-solid fa-venus-mars"></i> FÊMEA </p>
+                          <p><i class="fa-solid fa-paw"></i> PEQUENA </p>
+                          <p><i class="fa-solid fa-location-dot"></i> BARUERI - SP</p>
+                          <p><i class="fa-solid fa-house"></i> ADOTE TIQUIN VIDA ANIMAL</p>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+            </dialog>
         </div>
     </div>
     </article>
@@ -71,9 +98,6 @@
             <h3>Zeus</h3>
             <p>Descrição do animal aqui</p>
             <a href="#">Ver detalhes
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M10.854 4.854a.5.5 0 0 0-.708-.708L7 7.293 4.854 5.146a.5.5 0 1 0-.708.708l2.5 2.5a.5.5 0 0 0 .708 0l3.5-3.5z"/>
-                </svg>
             </a>
         </div>
     </div>
@@ -85,11 +109,7 @@
         <div class="card-content">
             <h3>Rex</h3>
             <p>Descrição do animal aqui</p>
-            <a href="#">Ver detalhes
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M10.854 4.854a.5.5 0 0 0-.708-.708L7 7.293 4.854 5.146a.5.5 0 1 0-.708.708l2.5 2.5a.5.5 0 0 0 .708 0l3.5-3.5z"/>
-                </svg>
-            </a>
+            <a href="#">Ver detalhes</a>
         </div>
     </div>
     </article>
@@ -100,11 +120,7 @@
         <div class="card-content">
             <h3>Mel</h3>
             <p>Descrição do animal aqui</p>
-            <a href="#">Ver detalhes
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M10.854 4.854a.5.5 0 0 0-.708-.708L7 7.293 4.854 5.146a.5.5 0 1 0-.708.708l2.5 2.5a.5.5 0 0 0 .708 0l3.5-3.5z"/>
-                </svg>
-            </a>
+            <a href="#">Ver detalhes</a>
         </div>
     </div>
     </article>
@@ -194,6 +210,6 @@
       </div>
   </footer>
 
-  <script type="text/javascript" src="main.js"></script>
+  <script src="scripts/encontre.js"></script>
 </body>
 </html>

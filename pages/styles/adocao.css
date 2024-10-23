@@ -118,7 +118,7 @@ body {
 
 .tag {
   display: flexbox;
-  background-color: #f8b400;
+  background-color: #E2A165;
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -146,7 +146,7 @@ p {
 
 .btn {
   display: inline-block;
-  background-color: #f8b400;
+  background-color: #E2A165;
   padding: 10px 20px;
   color: white;
   border-radius: 5px;

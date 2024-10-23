@@ -210,7 +210,7 @@ article {
 .menu {
   display: flex;
   gap: 30px;
-  margin-left: 20%;
+  margin-left: 21%;
   margin-top: 150px;
   text-align: center;
 }
@@ -219,7 +219,7 @@ article {
   border: none;
   text-decoration: none;
   color: #5a4631;
-  background-color: #e67e22;
+  background-color: #E2A165;
   border-radius: 80px;
   background-size: 100% auto;
   font-family: inherit;
@@ -293,7 +293,7 @@ section {
 
 .learn-more-button {
   display: inline-block;
-  background-color: #e59420;
+  background-color: #E2A165;
   color: #a65e2e;
   padding: 12px 25px;
   border-radius: 50px;
@@ -317,12 +317,12 @@ section {
 }
 
 .linha-horizontal1 {
-  border-top: 10px solid rgb(235, 118, 9); /* Linha horizontal */
-  width: 30%; /* Ocupa toda a largura do contêiner */ /* Espaço acima e abaixo da linha */
+  border-top: 10px solid #E2A165; 
+  width: 30%; 
   z-index: 0;
   border-radius: 20px;
   margin-top: -10px;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-right: 10px;
 }
 
@@ -335,6 +335,8 @@ section {
   margin-bottom: 30px;
   margin-top: 15px;
   color: #5a4631;
+  margin-left: 20px;
+
 }
 .linha {
   display: flex;
@@ -401,7 +403,7 @@ section {
 }
 
 .see-more {
-  background-color: #e59420;
+  background-color: #E2A165;
   color: #5a4631;
   border: none;
   padding: 15px 50px;

@@ -108,6 +108,96 @@ section {
   margin: 10px 0;
 }
 
+.open-modal {
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  color: #666;
+  font-size: 16px;
+}
+
+dialog::backdrop {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+/* Modal */
+dialog {
+  border: none;
+  width: 1100px;
+  border-radius: 24px;
+  padding: 18px;
+  height: 700px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Cabeçalho do modal */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Botão de fechar modal */
+.close-modal {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #9ca3af;
+  font-size: 18px;
+}
+
+/* Corpo do modal */
+.modal-body {
+  display: flexbox;
+  gap: 30px;
+}
+
+.modal-body img {
+  width: 500px;
+  height: 500px;
+  padding-top: 100px;
+  margin-left: 30px;
+}
+
+.itens-modal {
+  margin-top: -400px;
+  padding-left: 650px;
+}
+
+.itens-modal p {
+  padding-top: 15px;
+  color: #724a0a;
+}
+
+.itens-modal h1 {
+  color: #fff;
+  background-color: #e2a165;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.titulo {
+  padding-left: 10px;
+}
+
+.itens-modal i {
+  background-color: #e2a165;
+  width: 30px;
+  border-radius: 50px;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.textos {
+  padding-top: 50px;
+}
+
 .card-content a {
   text-decoration: none;
   color: #666;
@@ -168,10 +258,9 @@ section {
 }
 
 .button {
-  background-color: #ffcc80; /* Cor de fundo laranja */
-  color: black; /* Cor do texto */
-  border: 1px solid black; /* Borda preta */
-  border-radius: 10px; /* Bordas arredondadas */
+  background-color: #E2A165; /* Cor de fundo laranja */
+  color: black; /* Cor do texto */ 
+  border-radius: 30px; /* Bordas arredondadas */
   padding: 10px 20px; /* Espaçamento interno */
   text-align: center; /* Centralização do texto */
   text-decoration: none; /* Remoção de sublinhado */

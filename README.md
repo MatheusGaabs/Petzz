@@ -9,15 +9,8 @@ Formulário de interesse: Usuários podem preencher um formulário para expressa
 
 🛠️ Tecnologias Utilizadas
 HTML: Estruturação das páginas e organização dos elementos principais do site.
-CSS: Estilos e layout das páginas, incluindo a adaptação para dispositivos móveis.
-JavaScript: Funcionalidades interativas, como filtros, navegação entre seções e envio de formulários.
-
-🚀 Como Utilizar
-Clone este repositório em sua máquina:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/ProjetoAdocaoAnimais.git
-Abra o arquivo index.html em um navegador de sua preferência.
+CSS: Estilos e layout das páginas.
+JavaScript: Funcionalidades interativas, como telas modals e navegação entre seções. 
 
 💡 Possíveis Melhorias
 Banco de Dados: Implementar um backend com banco de dados para armazenar as informações dos animais e dos formulários de interesse.
@@ -26,4 +19,3 @@ Chat ao Vivo: Integração de um chat para que os interessados possam tirar dúv
 
 📄 Licença
 Este projeto está licenciado sob a MIT License.
-
